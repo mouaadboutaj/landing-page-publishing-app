@@ -4,7 +4,7 @@ A landing page for pubslishing app with React.js
 
 ### Demo
 
-landing-publishing-app.herokuapp.com [https://landing-publishing-app.herokuapp.com]
+[https://landing-publishing-app.herokuapp.com]
 
 ### Site Language
 

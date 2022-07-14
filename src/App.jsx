@@ -14,9 +14,6 @@ const App = () => {
     /* Home Component */
     const HomeComponent = <Home brandName={brandName} />;
 
-    /* Signup Component */
-    const SignupComponent = <Signup />;
-
     return (
         <>
             <div className="loader"></div>

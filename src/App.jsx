@@ -24,7 +24,6 @@ const App = () => {
                 <Routes>
                     <Route path='/'>
                         <Route index element={HomeComponent} />
-                        <Route path='signup' element={SignupComponent} />
                     </Route>
                 </Routes>
             </BrowserRouter>

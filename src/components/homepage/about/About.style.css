@@ -1,0 +1,79 @@
+/*
+**************************
+
+Section for About style
+
+**************************
+
+*/
+
+.about-section h3
+{
+    color : var(--txt-veryDarkBlue) !important;
+    font-family: var(--kufam);
+    font-style: normal;
+    font-weight: bold;
+    font-size: var(--srv-h3);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.image-editor
+{
+    width: 500px;
+}
+
+
+.bg-img
+{
+    width: 100%;
+    position: relative;
+    left: 250px;
+    bottom: 100px;
+    z-index: -1;
+    user-select: none;
+}
+
+.p-20
+{
+    padding: 20px;
+}
+
+.left
+{
+    margin-left: 10px;
+}
+
+.info p
+{
+    color: var(--txt-veryDarkBlackBlue) !important;
+    font-size: var(--p-size);
+}
+
+.info h4
+{
+    padding: 10px;
+    font-size: var(--hdr-h1);
+    color: var(--txt-black) !important;
+}
+
+.icon img
+{
+    width: 100px;
+}
+
+@media (max-width: 992px)
+{
+    .image-col
+    {
+        display: none;
+    }
+    .about-section h3
+    {
+        margin : 50px !important;
+    }
+    .info
+    {
+        text-align: center;
+    }
+}

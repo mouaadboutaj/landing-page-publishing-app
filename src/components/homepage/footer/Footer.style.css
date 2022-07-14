@@ -1,0 +1,85 @@
+/*
+**************************
+
+Section for Footer style
+
+**************************
+
+*/
+
+.footer-section
+{
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-height: 50vh;
+    background-color: var(--txt-veryDarkBlackBlue);
+}
+
+.footer-title h2
+{
+    font-size: var(--hdr-h1);
+    font-style: normal;
+    font-weight: bold;
+    font-family: var(--kufam);
+    margin-top: 50px;
+}
+
+.contact-section
+{
+    padding: 50px;
+}
+
+.contact-section h4
+{
+    text-align: center;
+}
+
+.contact-inputs *
+{
+    margin: 10px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: var(--txt-white) !important;
+}
+
+.contact-inputs input,
+.contact-inputs textarea
+{
+    background-color: transparent;
+    border-bottom: 1px solid var(--txt-white);
+}
+
+.contact-inputs input::placeholder,
+.contact-inputs textarea::placeholder
+{
+    color: var(--txt-white) !important;
+}
+
+.contact-inputs textarea
+{
+    height: 150px;
+}
+
+.contact-inputs button
+{
+    background-color: var(--txt-white);
+    color: var(--txt-veryDarkBlackBlue) !important;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    padding: 10px;
+}
+
+.contact-inputs button:hover
+{
+    background-color: rgb(227, 227, 227);
+}
+
+@media (max-width: 992px)
+{
+    .footer-title h2
+    {
+        text-align: center;
+        font-size: 45px;
+    }
+}

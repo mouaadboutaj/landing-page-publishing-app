@@ -1,0 +1,50 @@
+/*
+**************************
+
+Section for Services style
+
+**************************
+
+*/
+
+.bg-services
+{
+    border-top-right-radius: 100px;
+    padding: 50px;
+    border-bottom-left-radius: 100px;
+    background: linear-gradient(127deg, var(--bg-veryDarkDesaturedBlue), var(--bg-veryDarkGreyBlue));
+}
+
+.card
+{
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    background-color: transparent;
+    border: none;
+    transition: 0.3s bottom ease-in;
+    cursor: pointer;
+}
+
+.card-title
+{
+    margin: 20px;
+}
+
+.card-text
+{
+    margin: 10px;
+}
+
+.card-icon img
+{
+    width: 60px;
+}
+
+.card:hover
+{
+    background-color: var(--bg-veryDarkDesaturedBlue);
+    bottom: 30px;
+    border-radius: 10px;
+}

@@ -1,0 +1,73 @@
+/* ------------ GLOBAL STYLES & VARIABLES ------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;600&display=swap');
+
+:root
+{
+
+    /*
+
+    ----------- Media Queries -----------
+    
+    For Desktop Mode
+     - @media (min-width: 992px) 
+    FOr Mobile Mode
+     - @media (max-width: 992px)
+    
+    */
+
+
+    /* ----------- Fonts -----------*/
+
+    --kufam : 'Kufam', sans-serif;
+    --amiri : 'Amiri', serif;
+
+    /* ----------- Colors -----------*/
+
+             /* Primary */
+    --txt-lightRed : hsl(356, 100%, 66%); /* CTA text */
+    --txt-veryLightRed : hsl(355, 100%, 74%); /* CTA hover background */
+    --txt-veryDarkBlue : hsl(208, 49%, 24%); /* headings */
+            /* Gradient */
+    --bg-veryLightRed : hsl(13, 100%, 72%);
+    --bg-LightRed : hsl(353, 100%, 62%);
+    --bg-veryDarkGreyBlue : hsl(237, 17%, 21%);
+    --bg-veryDarkDesaturedBlue : hsl(237, 23%, 32%);
+            /* Neutral */
+    --txt-white :  hsl(0, 0%, 100%); /* Text white */
+    --txt-black : hsl(0, 0%, 0%); /* Text black */
+    --txt-whiteHover : hsl(0, 0, 93); /* Text hover and header paragraph */
+    --txt-grayishBlue : hsl(240, 2%, 79%); /* footer text */
+    --txt-veryDarkGrayishBlue : hsl(207, 13%, 34%); /* body copy */
+    --txt-veryDarkBlackBlue : hsl(240, 10%, 16%); /* footer background */
+
+    /* ----------- Sizes -----------*/
+
+    --p-size : 25px;
+    --p2-size : 16px;
+    --hdr-navBrand : 30px;
+    --hdr-h1 : 60px;
+    --srv-h3 : 40px;
+}
+
+*
+{
+    color: var(--txt-white) !important;
+}
+
+body
+{
+    font-family: var(--amiri);
+    overflow-x: hidden !important;
+}
+
+.loader
+{
+    height: 3px;
+    width: 0%;
+    background: var(--txt-white);
+    position: fixed;
+    z-index: 99999;
+    transition: width .6s ease;
+}
